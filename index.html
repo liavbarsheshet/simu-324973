@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>324973 - Simulation</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <script src="./js/main.js"> </script>
+    <script src="./js/game.js"></script>
+    <link rel="shortcut icon" href="./src/music.png" type="image/png">
+  </head>
+  <body>
+    <div class="loading_container">
+      <svg class="loading">
+        <circle class="loading_circle" cx="150" cy="150" r="140"></circle>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="score_bar m_nosel element m_nomouse">Score: <span style="font-weight:bold">0%</span></div>
+      <div class="play_section m_nosel">
+        <div class="sub_container">
+          <div class="track_number m_nomouse">#1</div>
+          <div class="category m_nomouse">
+            <div>CATEGORY</div>
+            <div class="category_sub">Piano</div>
+          </div>
+          <input class="play_bt" type="button" value="LOADING">
+        </div>
+      </div>
+      <div class="option_holder"></div>
+      <div class="info_text m_nosel">[ <span style="color:#e12250">NEW</span><span> ] Filter categories ( Select / Unselect a category )</span></div>
+      <div class="expanded_score_bar sub_container" style="aling-items:center;justify-content:center"></div>
+      <div class="info_text m_nosel">Mode Selection</div>
+      <div class="modes sub_container" style="aling-items:center;justify-content:center"></div>
+      <div class="copyrights m_nosel">Created by Liav Barsheshet, 2022 ©</div>
+    </div>
+  </body>
+</html>
