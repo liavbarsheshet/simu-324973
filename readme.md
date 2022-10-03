@@ -1,8 +1,10 @@
 # SIMULATION-324973
+###### Winter 2021-2022
 
 ---
 
 Simulate the finals exam of course 324973 - The Language of Music-syntax of Tones at Technion.
+
 
 ## BRIEF
 
@@ -13,10 +15,13 @@ I took this side-course as part of my degree and its final test was to be a "hum
 A 30 second part of a piece will be played 3 times.
 You will have to guess the piece within 3 times or less.
 
+## Features
+The website lets you pick from different modes, playlists and keeps track your score.
+Later on you can track your improvements.
+
 ## Results
 
-All students from **different universities** have used this website which led to increase in average.
-
+Students from **different universities** used this website which led to increase in average.
 The website was a success.
 
 ## Author
